@@ -73,9 +73,10 @@ Open `index.html` in your browser.
 
 ## 📸 Screenshots
 
-![Chat UI](screenshots/Screenshot 2026-04-06 220621.png)
-![Booking](screenshots/Screenshot 2026-04-06 220801.png)
-![Database](screenshots/Screenshot 2026-04-06 220907.png)
+![Chat UI](screenshots/Screenshot-2026-04-06-220621.png)
 
+![Booking](screenshots/Screenshot-2026-04-06-220801.png)
+
+![Database](screenshots/Screenshot-2026-04-06-220907.png)
 
 ---
