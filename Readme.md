@@ -1,45 +1,42 @@
-Symphony Care 🏥
-Symphony Care is an AI-powered healthcare assistant designed to streamline the medical appointment booking process. Using a conversational interface, it identifies patient symptoms, matches them with the appropriate medical specialist, and schedules appointments directly into a MySQL database.
+# 🏥 Symphony Care  
+### AI-Powered Healthcare Appointment Assistant  
 
-🚀 Features
-Intelligent Symptom Detection: Automatically maps symptoms (e.g., "chest pain") to the correct specialist (e.g., "Cardiologist").
+Symphony Care is a smart healthcare assistant that simplifies appointment booking through a conversational interface. It detects user symptoms, maps them to the right specialist, and stores bookings in a MySQL database.
 
-Conversational UI: A sleek, user-friendly chat interface with glassmorphism design.
+---
 
-Smart Parsing: Understands natural language dates like "Tomorrow" or "Next Friday".
+## 🚀 Features  
 
-Session Management: Tracks individual user conversations using unique Session IDs.
+- 🧠 Intelligent symptom → specialist mapping  
+- 💬 Conversational chat-based interface  
+- 📅 Natural language date parsing (*“Tomorrow”, “Next Friday”*)  
+- 🆔 Session-based interaction tracking  
+- 💾 MySQL-based persistent storage  
 
-Persistent Storage: Full integration with MySQL to store patient records.
+---
 
-🛠️ Tech Stack
-Backend: Java 17, Spring Boot 4.0.1
+## 🛠️ Tech Stack  
 
-Frontend: HTML5, CSS3, Vanilla JavaScript
+| Layer | Technology |
+|------|-----------|
+| Backend | Java 17, Spring Boot |
+| Frontend | HTML, CSS, JavaScript |
+| Database | MySQL |
+| Build Tool | Maven |
 
-Database: MySQL
+---
 
-Build Tool: Maven
+## ⚙️ Setup  
 
-📋 Prerequisites
-Before running the project, ensure you have the following installed:
+### 1. Clone Repository  
 
-Java JDK 17 or higher
-
-MySQL Server
-
-A modern web browser (Chrome/Edge/Firefox)
-
-🔧 Setup & Installation
-1. Clone the repository:
-
-Bash
 git clone <your-repository-url>
 cd CareConnect
-2. Database Setup:
-Execute the following SQL commands in your MySQL terminal or Workbench to create the database and table:
 
-SQL
+
+### 2. Database Setup
+
+```sql
 CREATE DATABASE careconnect;
 USE careconnect;
 
@@ -50,22 +47,35 @@ CREATE TABLE appointment (
   date VARCHAR(20),
   time VARCHAR(20)
 );
-3. Configure Database Credentials:
-Open src/main/resources/application.properties and update your MySQL username and password to match your local setup:
+```
 
-Properties
+### 3. Configure Credentials
+
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/careconnect
 spring.datasource.username=your_username
 spring.datasource.password=your_password
-4. Run the Backend:
-Using the Maven Wrapper, start the Spring Boot server (it will run on port 8095):
+```
 
-Bash
+### 4. Run Backend
+
+```bash
 ./mvnw spring-boot:run
-(For Windows Command Prompt, use mvnw.cmd spring-boot:run)
+```
 
-5. Launch the Frontend:
-Simply open index.html in your web browser to start chatting with the assistant!
+### 5. Run Frontend
 
-📸 Screenshots
-(Create a folder named screenshots in your project root, add your images, and remove the HTML comment arrows `` below to display them)
+```
+Open `index.html` in your browser.
+```
+
+---
+
+## 📸 Screenshots
+
+![Chat UI](screenshots/Screenshot 2026-04-06 220621.png)
+![Booking](screenshots/Screenshot 2026-04-06 220801.png)
+![Database](screenshots/Screenshot 2026-04-06 220907.png)
+
+
+---
