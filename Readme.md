@@ -74,7 +74,7 @@ Open `index.html` in your browser.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/chat-ui.png" width="50%"/><br/>
+  <img src="screenshots/chat-ui.png" width="100%"/><br/>
   <b>💬 Chat Interface</b>
 </p>
 
@@ -87,4 +87,5 @@ Open `index.html` in your browser.
   <img src="screenshots/database.png" width="40%"/><br/>
   <b>🗄️ Database Records</b>
 </p>
+
 ---
