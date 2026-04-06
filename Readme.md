@@ -73,10 +73,10 @@ Open `index.html` in your browser.
 
 ## 📸 Screenshots
 
-![Chat UI](screenshots/chat-ui.png)
-
-![Booking](screenshots/booking-ui.png)
-
-![Database](screenshots/database.png)
+<p align="center">
+  <img src="screenshots/chat-ui.png" width="32%"/>
+  <img src="screenshots/booking.png" width="32%"/>
+  <img src="screenshots/database.png" width="32%"/>
+</p>
 
 ---
