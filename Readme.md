@@ -73,10 +73,10 @@ Open `index.html` in your browser.
 
 ## 📸 Screenshots
 
-![Chat UI](screenshots/Screenshot-2026-04-06-220621.png)
+![Chat UI](screenshots/chat-ui.png)
 
-![Booking](screenshots/Screenshot-2026-04-06-220801.png)
+![Booking](screenshots/booking.png)
 
-![Database](screenshots/Screenshot-2026-04-06-220907.png)
+![Database](screenshots/database.png)
 
 ---
