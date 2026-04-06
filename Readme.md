@@ -75,7 +75,7 @@ Open `index.html` in your browser.
 
 ![Chat UI](screenshots/chat-ui.png)
 
-![Booking](screenshots/booking.png)
+![Booking](screenshots/booking-ui.png)
 
 ![Database](screenshots/database.png)
 
