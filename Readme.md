@@ -75,7 +75,7 @@ Open `index.html` in your browser.
 
 <p align="center">
   <img src="screenshots/chat-ui.png" width="32%"/>
-  <img src="screenshots/booking.png" width="32%"/>
+  <img src="screenshots/booking-ui.png" width="32%"/>
   <img src="screenshots/database.png" width="32%"/>
 </p>
 
