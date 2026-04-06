@@ -74,9 +74,17 @@ Open `index.html` in your browser.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/chat-ui.png" width="32%"/>
-  <img src="screenshots/booking-ui.png" width="32%"/>
-  <img src="screenshots/database.png" width="32%"/>
+  <img src="screenshots/chat-ui.png" width="50%"/><br/>
+  <b>💬 Chat Interface</b>
 </p>
 
+<p align="center">
+  <img src="screenshots/booking-ui.png" width="30%"/><br/>
+  <b>📅 Appointment Booking</b>
+</p>
+
+<p align="center">
+  <img src="screenshots/database.png" width="40%"/><br/>
+  <b>🗄️ Database Records</b>
+</p>
 ---
